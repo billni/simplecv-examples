@@ -126,7 +126,7 @@ the previous example we can see there are two layers::
 Now these drawing layers can be used between images.  Let's take a layer
 from one image and apply it to another image.
 
-	>>> scv = Image('scv')
+	>>> scv = Image('simplecv')
 	>>> logo = Image('logo')
 	>>> sdl = scv.dl()
 	>>> ldl = logo.dl()
